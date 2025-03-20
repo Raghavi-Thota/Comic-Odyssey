@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #2C1A1D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .card {
+            display: flex;
+            width: 80vw;
+            height: 80vh;
+            background: #F1E4C3;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 50%;
+            height:100%;
+            object-fit: contain;
+        }
+        .card-content {
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .card-content h1 {
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 50px;
+            color: #2C1A1D;
+        }
+        .card-content p {
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="images/The_Odyssey.jpeg" alt="Image">
+        <div class="card-content">
+            <h1>The Odyssey</h1>
+            <p>Fresh from his triumphs in the Trojan War, Odysseus, King of Ithaca, wants nothing more than to return home to his family. Instead, he offends the sea god, Poseidon, who dooms him to years of shipwreck and wandering. Battling man-eating monsters, violent storms, and the supernatural seductions of sirens and sorceresses, Odysseus will need all his strength and cunning--and a little help from Mount Olympus--to make his way home and seize his kingdom from the schemers who seek to wed his queen and usurp his throne. Award-winning graphic artist Gareth Hinds masterfully reinterprets a story of heroism, adventure, and high action that has been told and retold for more than 2,500 years--though never quite like this. With bold imagery and an ear tuned to the music of Homer’s epic poem, Gareth Hinds reinterprets the ancient classic as it’s never been told before.</p>
+        </div>
+    </div>
+</body>
+</html>

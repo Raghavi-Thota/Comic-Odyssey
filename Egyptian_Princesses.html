@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #2C1A1D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .card {
+            display: flex;
+            width: 80vw;
+            height: 80vh;
+            background: #F1E4C3;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .card-content {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .card-content h1 {
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 50px;
+            color: #2C1A1D;
+        }
+        .card-content p {
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="images/The_Egyption_princesses.jpeg" alt="Image">
+        <div class="card-content">
+            <h1>The Egyptian Princesses</h1>
+            <p>A tale of adventure, conspiracy, and black magic amid the myths and mysteries of Ancient Egypt. During Egypt’s 20th dynasty, toward the end of Ramesses III’s reign, a dangerous plot sows disorder inside the royal palace. The conspirators plan to hasten the end of the Pharaoh in order to place the heir of their choice on the throne. Unaware of the scheme, the inseparable daughters of the Pharaoh, Kiki-Nefer and Titi-Nefer, will have to uncover the mysteries of the forbidden knowledge of necromancy and black magic to confront their many enemies.</p>
+        </div>
+    </div>
+</body>
+</html>

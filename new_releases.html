@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable Cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #2C1A1D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        h1.title {
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 60px;
+            color: #F1E4C3;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card {
+            display: flex;
+            width: 100%;
+            height: 80vh;
+            background: #F1E4C3;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .card-content {
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .card-content h1 {
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 50px;
+            color: #2C1A1D;
+        }
+        .card-content p {
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">New Releases</h1>
+    <div class="container">
+        <div class="card">
+            <img src="images/Pantheon.jpeg" alt="The Iliad">
+            <div class="card-content">
+                <h1>Pantheon</h1>
+                <p>The most important myth in Ancient Egypt is faithfully retold in glorious color! Horus, son of Isis, vows bloody revenge on his Uncle Set for the murder and usurpation of his Pharaoh father. Based on elements from various versions of the famous Osiris myth, Hamish Steele has resurrected this fantastic story in all its symbolic and humorous glory.
+                    Pantheon contains: incest, decapitation, suspicious salad, fighting hippos, flying cows, a boat race, resurrections, lots of scorpions and a golden willy.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/Ramayana.jpeg" alt="The Odyssey">
+            <div class="card-content">
+                <h1>Ramayana</h1>
+                <p>Valmiki's Ramayana, composed as early as 500 BCE, remains a story that speaks to every generation and continues to enthral millions of people in the Subcontinent and beyond.The noble prince Rama is exiled from Ayodhya on his stepmother's whim, and his loyal brother Lakshmana and beautiful wife, Sita, follow him into the forest despite the many dangers it holds. But when Sita is kidnapped by Ravana, king of the rakshasas, Rama must go deep into himself to find the physical and emotional resources he needs to rescue her.Apart from exploring the fundamental human question of how to be good, the Ramayana is also the story of a god who comes to earth to establish righteousness. The tension between Rama's essentially divine nature and his all too human trials makes this one of the most compelling epics in world literature.</p>
+            </div>
+        </div>
+        <div class="card">
+                <img src="images/Mahabharata.jpeg" alt="The Iliad">
+                <div class="card-content">
+                    <h1>Mahabharata</h1>
+                    <p>Veda Vyasa’s Mahabharata is a timeless tale of brotherhood, deceit, love, and sacrifice, also featuring The Gita, Lord Krishna’s discourse on dharma. This 42-comic box set brings the epic to life. Volume 1 covers the Pandavas’ early days in Hastinapur, Duryodhana’s growing hatred, and their escape from the burning palace. Volume 2 follows the fateful game of dice, leading to the Pandavas' exile. Volume 3 encapsulates the great war of Kurukshetra, ending in their victory with Krishna’s guidance.</p>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
